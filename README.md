@@ -1,4 +1,2 @@
 # if_Processor
-Demonstrates insertion of Energia specific code insertion prior to compilation based on the processor being used.
-
-The pre-processor checks to see what processor is being used and inserts code accordingly.  Use these #if statements to insert hardware specific actions into your code based on hardware ADC resolution, clock speed, etc.
+Demonstrates how to determine what Texas Instruments processor is being used in a LaunchPad and then insert code with the compiler pre-processor.  This can be used to insert hardware specific actions into your code based on the ADC resolution, clock speed, etc. that are being used.
