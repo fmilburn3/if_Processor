@@ -47,6 +47,10 @@ void setup()
     Serial.println("Found MSP430FR5969");
   #endif
 
+  #if defined (__MSP430FR6989)
+    Serial.println("Found MSP430FR6989");
+  #endif
+  
   #if defined(__LM4F120H5QR__)
     Serial.println("Found Tiva C Series TM4C123G");
   #endif
